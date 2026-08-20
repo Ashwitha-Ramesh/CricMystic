@@ -721,6 +721,197 @@ app.get('/api/replay/:match_id', (req: Request, res: Response) => {
     }
   }
 
+  // If no raw file existed, synthesize delivery progression matching match scorecard
+  if (deliveries.length === 0) {
+    const team1 = matchInfo.team1 || 'Team 1';
+    const team2 = matchInfo.team2 || 'Team 2';
+    const winner = matchInfo.winner || team1;
+    const pom = matchInfo.playerOfMatch || matchInfo.player_of_match || 'Star Player';
+
+    let prevP = 50.0;
+    const inn1Score = matchInfo.firstInningsScore || 165;
+    const inn1Balls = 120;
+    const inn1WicketsTotal = winner === team1 && matchInfo.margin?.includes('wickets') ? 5 : 7;
+    let cumRuns1 = 0;
+    let cumWkts1 = 0;
+
+    let seed = 0;
+    for (let i = 0; i < matchId.length; i++) seed = (seed * 31 + matchId.charCodeAt(i)) % 100000;
+    const getPseudo = () => {
+      seed = (seed * 9301 + 49297) % 233280;
+      return seed / 233280;
+    };
+
+    for (let b = 1; b <= inn1Balls; b++) {
+      const compOvers = Math.floor((b - 1) / 6);
+      const ballInOv = ((b - 1) % 6) + 1;
+      let runsOffBat = 0;
+      const rnd = getPseudo();
+      if (rnd < 0.38) runsOffBat = 0;
+      else if (rnd < 0.72) runsOffBat = 1;
+      else if (rnd < 0.82) runsOffBat = 2;
+      else if (rnd < 0.93) runsOffBat = 4;
+      else if (rnd < 0.98) runsOffBat = 6;
+      else runsOffBat = 1;
+
+      let isWicket = false;
+      let wicketType = '';
+      if (cumWkts1 < inn1WicketsTotal && (b % Math.floor(inn1Balls / (inn1WicketsTotal + 1)) === 0 || (rnd > 0.96 && cumWkts1 < 9))) {
+        isWicket = true;
+        wicketType = 'caught';
+        cumWkts1++;
+      }
+
+      if (runsOffBat + cumRuns1 > inn1Score && b < inn1Balls) runsOffBat = Math.max(0, inn1Score - cumRuns1);
+      if (b === inn1Balls) runsOffBat = Math.max(0, inn1Score - cumRuns1);
+
+      cumRuns1 += runsOffBat;
+      const currentRR = b > 0 ? (cumRuns1 / (b / 6)) : 0;
+      const ballsRemaining = 120 - b;
+      const projectedScore = cumRuns1 + (ballsRemaining / 6) * Math.max(7.5, currentRR);
+      const batProb = Math.min(95, Math.max(15, Math.round((projectedScore / 185) * 50 * 10) / 10));
+      const swing = Math.round((batProb - prevP) * 10) / 10;
+      prevP = batProb;
+
+      let eventLabel = '';
+      if (isWicket) eventLabel = `WICKET (${wicketType})`;
+      else if (runsOffBat === 6) eventLabel = 'SIX';
+      else if (runsOffBat === 4) eventLabel = 'FOUR';
+      else if (runsOffBat === 0) eventLabel = 'DOT';
+
+      deliveries.push({
+        innings: 1,
+        over: compOvers,
+        ball: ballInOv,
+        deliveryLabel: `${compOvers}.${ballInOv}`,
+        actualBallNum: b,
+        battingTeam: team1,
+        bowlingTeam: team2,
+        striker: b <= 60 ? pom : 'Middle Order Batter',
+        nonStriker: 'Top Order Batter',
+        bowler: `Bowler ${compOvers % 5 + 1}`,
+        runsOffBat,
+        extras: 0,
+        totalRuns: runsOffBat,
+        isWicket,
+        wicketType,
+        playerDismissed: isWicket ? (b <= 60 ? 'Top Order Batter' : 'Middle Order Batter') : '',
+        cumRuns: cumRuns1,
+        cumWickets: cumWkts1,
+        currentRR: Math.round(currentRR * 100) / 100,
+        requiredRR: 0,
+        target,
+        battingWinProb: batProb,
+        bowlingWinProb: Math.round((100 - batProb) * 10) / 10,
+        probSwing: swing,
+        eventLabel,
+        momentum: swing >= 3 ? 'Rising' : swing <= -3 ? 'Falling' : 'Stable'
+      });
+    }
+
+    // Innings 2
+    const inn2IsWinner = winner === team2;
+    const inn2FinalScore = inn2IsWinner ? (target + (getPseudo() > 0.5 ? 1 : 0)) : Math.max(80, target - 12);
+    const inn2WicketsTotal = inn2IsWinner ? (matchInfo.margin?.includes('wickets') ? 10 - parseInt(matchInfo.margin, 10) : 5) : 9;
+    const inn2BallsTotal = inn2IsWinner ? Math.min(120, 108 + Math.floor(getPseudo() * 12)) : 120;
+
+    let cumRuns2 = 0;
+    let cumWkts2 = 0;
+    const recentRuns: number[] = [];
+    const recentWkts: number[] = [];
+    prevP = 50.0;
+
+    for (let b = 1; b <= inn2BallsTotal; b++) {
+      const compOvers = Math.floor((b - 1) / 6);
+      const ballInOv = ((b - 1) % 6) + 1;
+      let runsOffBat = 0;
+      const rnd = getPseudo();
+      if (rnd < 0.36) runsOffBat = 0;
+      else if (rnd < 0.68) runsOffBat = 1;
+      else if (rnd < 0.78) runsOffBat = 2;
+      else if (rnd < 0.90) runsOffBat = 4;
+      else if (rnd < 0.97) runsOffBat = 6;
+      else runsOffBat = 1;
+
+      let isWicket = false;
+      let wicketType = '';
+      if (cumWkts2 < inn2WicketsTotal && (b % Math.max(1, Math.floor(inn2BallsTotal / (inn2WicketsTotal + 1))) === 0 || (rnd > 0.96 && cumWkts2 < inn2WicketsTotal))) {
+        isWicket = true;
+        wicketType = 'caught';
+        cumWkts2++;
+      }
+
+      if (runsOffBat + cumRuns2 > inn2FinalScore && b < inn2BallsTotal) runsOffBat = Math.max(0, inn2FinalScore - cumRuns2);
+      if (b === inn2BallsTotal) runsOffBat = Math.max(0, inn2FinalScore - cumRuns2);
+
+      cumRuns2 += runsOffBat;
+      recentRuns.push(runsOffBat);
+      recentWkts.push(isWicket ? 1 : 0);
+
+      const actualB = b;
+      const ballsRemaining = Math.max(0, 120 - actualB);
+      const runsRequired = Math.max(0, target - cumRuns2);
+      const currentRR = actualB > 0 ? (cumRuns2 / (actualB / 6)) : 0;
+      const requiredRR = ballsRemaining > 0 ? (runsRequired / (ballsRemaining / 6)) : (runsRequired > 0 ? 99 : 0);
+
+      const pred = computeWinProbability({
+        battingTeam: team2,
+        bowlingTeam: team1,
+        venue: matchInfo.venue,
+        innings: 2,
+        currentScore: cumRuns2,
+        wicketsLost: cumWkts2,
+        overs: compOvers + ballInOv / 10,
+        target,
+        last6Runs: recentRuns.slice(-6).reduce((x, y) => x + y, 0),
+        last12Runs: recentRuns.slice(-12).reduce((x, y) => x + y, 0),
+        last18Runs: recentRuns.slice(-18).reduce((x, y) => x + y, 0),
+        last12Wickets: recentWkts.slice(-12).reduce((x, y) => x + y, 0)
+      });
+
+      const batProb = pred.battingProbability;
+      const swing = Math.round((batProb - prevP) * 10) / 10;
+      prevP = batProb;
+
+      let eventLabel = '';
+      if (isWicket) eventLabel = `WICKET (${wicketType})`;
+      else if (runsOffBat === 6) eventLabel = 'SIX';
+      else if (runsOffBat === 4) eventLabel = 'FOUR';
+      else if (runsOffBat === 0) eventLabel = 'DOT';
+
+      deliveries.push({
+        innings: 2,
+        over: compOvers,
+        ball: ballInOv,
+        deliveryLabel: `${compOvers}.${ballInOv}`,
+        actualBallNum: actualB,
+        battingTeam: team2,
+        bowlingTeam: team1,
+        striker: actualB >= 60 && inn2IsWinner ? pom : 'Top Order Batter',
+        nonStriker: 'Middle Order Batter',
+        bowler: `Bowler ${compOvers % 5 + 1}`,
+        runsOffBat,
+        extras: 0,
+        totalRuns: runsOffBat,
+        isWicket,
+        wicketType,
+        playerDismissed: isWicket ? (actualB < 60 ? 'Top Order Batter' : 'Middle Order Batter') : '',
+        cumRuns: cumRuns2,
+        cumWickets: cumWkts2,
+        currentRR: Math.round(currentRR * 100) / 100,
+        requiredRR: Math.round(requiredRR * 100) / 100,
+        target,
+        battingWinProb: batProb,
+        bowlingWinProb: Math.round((100 - batProb) * 10) / 10,
+        probSwing: swing,
+        eventLabel,
+        momentum: swing >= 3 ? 'Rising' : swing <= -3 ? 'Falling' : 'Stable'
+      });
+
+      if (cumRuns2 >= target) break;
+    }
+  }
+
   let rawTP = (turningPoints[matchId]?.turningPoints || []).map((tp: any) => ({
     over: Math.floor(parseFloat(tp.over || '0')),
     ball: Math.round((parseFloat(tp.over || '0') % 1) * 10),

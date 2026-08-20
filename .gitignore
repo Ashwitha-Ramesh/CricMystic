@@ -23,3 +23,5 @@ __pycache__/
 # Raw / temporary datasets
 data/raw/
 data_temp_ipl.zip
+# Local Netlify folder
+.netlify
