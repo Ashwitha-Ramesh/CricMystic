@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mc_1",
+    "title": "The Wankhede Collapse Swing",
+    "scenario": "Chasing 180, Batting team is 110/1 at 12.0 overs (Win Prob: 78%). Over 13 sees 2 quick wickets for 3 runs.",
+    "question": "What is the new win probability after the two wickets?",
+    "options": [
+      "42% - 48%",
+      "65% - 70%",
+      "15% - 20%",
+      "85% - 90%"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Losing 2 wickets in 6 balls drops the win probability from 78% down to ~45% due to the loss of top-order momentum and depth."
+  },
+  {
+    "id": "mc_2",
+    "title": "Death Overs Pressure Surge",
+    "scenario": "Target 200. At 16.0 overs, score is 150/4. Equation: 50 runs needed off 24 balls (RRR 12.50).",
+    "question": "If the 17th over yields 22 runs without losing a wicket, what is the win probability trajectory?",
+    "options": [
+      "Surges from 38% to over 64%",
+      "Remains unchanged at 38%",
+      "Drops to 25%",
+      "Increases marginally to 42%"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "A 22-run explosion reduces the equation to 28 needed from 18 balls (RRR 9.33), shifting momentum decisively to the batting team."
+  }
+]

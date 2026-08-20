@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ktkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6F2C91" />
+      <stop offset="100%" stop-color="#FF6600" />
+    </linearGradient>
+  </defs>
+  <path d="M60 6 L108 20 C108 72 60 112 60 112 C60 112 12 72 12 20 Z" fill="url(#ktkGrad)" stroke="#FFFFFF" stroke-width="3" />
+  <!-- Elephant Tusk -->
+  <path d="M46 54 C46 38 60 32 60 32 C60 32 74 38 74 54 C70 66 60 70 60 70 C60 70 50 66 46 54 Z" fill="#FFFFFF" opacity="0.9" />
+  <text x="60" y="93" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">KTK</text>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "totalMatches": 1243,
+  "totalDeliveries": 295732,
+  "totalRuns": 401738,
+  "totalSixes": 15779,
+  "totalWickets": 14686,
+  "totalTeams": 15,
+  "totalVenues": 60,
+  "totalPlayers": 739,
+  "seasonRange": {
+    "min": 2008,
+    "max": 2026,
+    "count": 19
+  },
+  "seasons": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "latestSeason": {
+    "season": 2026,
+    "champion": "Royal Challengers Bengaluru",
+    "runnerUp": "Gujarat Titans",
+    "margin": "5 wickets",
+    "finalMatchId": "1535465",
+    "finalVenue": "Narendra Modi Stadium, Ahmedabad"
+  },
+  "dataSource": "Cricsheet (Verified ball-by-ball archive)",
+  "lastUpdated": "2026-08-17"
+}

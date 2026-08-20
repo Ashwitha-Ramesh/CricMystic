@@ -1,0 +1,33 @@
+{
+  "source": "Cricsheet",
+  "source_url": "https://cricsheet.org/downloads/ipl_json.zip",
+  "competition": "Indian Premier League",
+  "first_season": 2008,
+  "latest_season": 2026,
+  "downloaded_at": "2026-08-16T07:26:49.147020Z",
+  "match_count": 1243,
+  "delivery_count": 295732,
+  "seasons": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "checksum": "841b98290a08bdf2a063a9f4d6342fb2363ff246491ed3db4c571bddb6ea2a79",
+  "pipeline_version": "2.0.0-cricsheet"
+}

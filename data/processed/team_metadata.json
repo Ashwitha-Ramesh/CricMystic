@@ -1,0 +1,152 @@
+{
+  "Royal Challengers Bengaluru": {
+    "shortName": "RCB",
+    "primaryColor": "#EC1C24",
+    "secondaryColor": "#000000",
+    "textColor": "#FFFFFF",
+    "homeVenue": "M. Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "captain": "Faf du Plessis",
+    "coach": "Andy Flower"
+  },
+  "Chennai Super Kings": {
+    "shortName": "CSK",
+    "primaryColor": "#FFFF00",
+    "secondaryColor": "#0081E9",
+    "textColor": "#000000",
+    "homeVenue": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "captain": "Ruturaj Gaikwad",
+    "coach": "Stephen Fleming"
+  },
+  "Mumbai Indians": {
+    "shortName": "MI",
+    "primaryColor": "#004BA0",
+    "secondaryColor": "#D1AB3E",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Wankhede Stadium",
+    "city": "Mumbai",
+    "captain": "Hardik Pandya",
+    "coach": "Mark Boucher"
+  },
+  "Kolkata Knight Riders": {
+    "shortName": "KKR",
+    "primaryColor": "#3A225D",
+    "secondaryColor": "#ECC542",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Eden Gardens",
+    "city": "Kolkata",
+    "captain": "Shreyas Iyer",
+    "coach": "Chandrakant Pandit"
+  },
+  "Rajasthan Royals": {
+    "shortName": "RR",
+    "primaryColor": "#EA1A85",
+    "secondaryColor": "#254AA5",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "captain": "Sanju Samson",
+    "coach": "Kumar Sangakkara"
+  },
+  "Sunrisers Hyderabad": {
+    "shortName": "SRH",
+    "primaryColor": "#FF822A",
+    "secondaryColor": "#000000",
+    "textColor": "#000000",
+    "homeVenue": "Rajiv Gandhi Intl Stadium",
+    "city": "Hyderabad",
+    "captain": "Pat Cummins",
+    "coach": "Daniel Vettori"
+  },
+  "Delhi Capitals": {
+    "shortName": "DC",
+    "primaryColor": "#004C93",
+    "secondaryColor": "#E03B26",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "captain": "Rishabh Pant",
+    "coach": "Ricky Ponting"
+  },
+  "Punjab Kings": {
+    "shortName": "PBKS",
+    "primaryColor": "#DD1F2D",
+    "secondaryColor": "#C0C0C0",
+    "textColor": "#FFFFFF",
+    "homeVenue": "PCA Stadium",
+    "city": "Mohali",
+    "captain": "Shikhar Dhawan",
+    "coach": "Trevor Bayliss"
+  },
+  "Gujarat Titans": {
+    "shortName": "GT",
+    "primaryColor": "#1B2133",
+    "secondaryColor": "#BCA96C",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "captain": "Shubman Gill",
+    "coach": "Ashish Nehra"
+  },
+  "Lucknow Super Giants": {
+    "shortName": "LSG",
+    "primaryColor": "#A72056",
+    "secondaryColor": "#0057B7",
+    "textColor": "#FFFFFF",
+    "homeVenue": "BRSABV Ekana Stadium",
+    "city": "Lucknow",
+    "captain": "KL Rahul",
+    "coach": "Justin Langer"
+  },
+  "Deccan Chargers": {
+    "shortName": "DC_OLD",
+    "primaryColor": "#09244B",
+    "secondaryColor": "#F2F4F7",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Rajiv Gandhi Intl Stadium",
+    "city": "Hyderabad",
+    "captain": "Adam Gilchrist",
+    "coach": "Darren Lehmann"
+  },
+  "Rising Pune Supergiant": {
+    "shortName": "RPS",
+    "primaryColor": "#D11D5B",
+    "secondaryColor": "#7B2C79",
+    "textColor": "#FFFFFF",
+    "homeVenue": "MCA Stadium",
+    "city": "Pune",
+    "captain": "Steve Smith",
+    "coach": "Stephen Fleming"
+  },
+  "Gujarat Lions": {
+    "shortName": "GL",
+    "primaryColor": "#E05021",
+    "secondaryColor": "#3F5874",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Saurashtra Cricket Association Stadium",
+    "city": "Rajkot",
+    "captain": "Suresh Raina",
+    "coach": "Brad Hodge"
+  },
+  "Pune Warriors": {
+    "shortName": "PWI",
+    "primaryColor": "#29ABE2",
+    "secondaryColor": "#000000",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Subrata Roy Sahara Stadium",
+    "city": "Pune",
+    "captain": "Sourav Ganguly",
+    "coach": "Geoff Marsh"
+  },
+  "Kochi Tuskers Kerala": {
+    "shortName": "KTK",
+    "primaryColor": "#6F2C91",
+    "secondaryColor": "#FF6600",
+    "textColor": "#FFFFFF",
+    "homeVenue": "Jawaharlal Nehru Stadium",
+    "city": "Kochi",
+    "captain": "Mahela Jayawardene",
+    "coach": "Geoff Lawson"
+  }
+}

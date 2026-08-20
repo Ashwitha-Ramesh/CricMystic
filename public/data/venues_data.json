@@ -1,0 +1,542 @@
+{
+  "M Chinnaswamy Stadium": {
+    "name": "M Chinnaswamy Stadium",
+    "city": "Bangalore",
+    "matches": 65,
+    "chasingWins": 36,
+    "batFirstWins": 26,
+    "chasingWinRate": 55.4,
+    "avg1stInningsScore": 168
+  },
+  "Punjab Cricket Association Stadium, Mohali": {
+    "name": "Punjab Cricket Association Stadium, Mohali",
+    "city": "Chandigarh",
+    "matches": 35,
+    "chasingWins": 20,
+    "batFirstWins": 15,
+    "chasingWinRate": 57.1,
+    "avg1stInningsScore": 163
+  },
+  "Feroz Shah Kotla": {
+    "name": "Feroz Shah Kotla",
+    "city": "Delhi",
+    "matches": 60,
+    "chasingWins": 32,
+    "batFirstWins": 27,
+    "chasingWinRate": 53.3,
+    "avg1stInningsScore": 163
+  },
+  "Wankhede Stadium": {
+    "name": "Wankhede Stadium",
+    "city": "Mumbai",
+    "matches": 73,
+    "chasingWins": 37,
+    "batFirstWins": 35,
+    "chasingWinRate": 50.7,
+    "avg1stInningsScore": 166
+  },
+  "Eden Gardens": {
+    "name": "Eden Gardens",
+    "city": "Kolkata",
+    "matches": 77,
+    "chasingWins": 47,
+    "batFirstWins": 30,
+    "chasingWinRate": 61.0,
+    "avg1stInningsScore": 160
+  },
+  "Sawai Mansingh Stadium": {
+    "name": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "matches": 47,
+    "chasingWins": 32,
+    "batFirstWins": 15,
+    "chasingWinRate": 68.1,
+    "avg1stInningsScore": 158
+  },
+  "Rajiv Gandhi International Stadium, Uppal": {
+    "name": "Rajiv Gandhi International Stadium, Uppal",
+    "city": "Hyderabad",
+    "matches": 49,
+    "chasingWins": 29,
+    "batFirstWins": 19,
+    "chasingWinRate": 59.2,
+    "avg1stInningsScore": 156
+  },
+  "MA Chidambaram Stadium, Chepauk": {
+    "name": "MA Chidambaram Stadium, Chepauk",
+    "city": "Chennai",
+    "matches": 48,
+    "chasingWins": 17,
+    "batFirstWins": 30,
+    "chasingWinRate": 35.4,
+    "avg1stInningsScore": 166
+  },
+  "Dr DY Patil Sports Academy": {
+    "name": "Dr DY Patil Sports Academy",
+    "city": "Mumbai",
+    "matches": 17,
+    "chasingWins": 10,
+    "batFirstWins": 7,
+    "chasingWinRate": 58.8,
+    "avg1stInningsScore": 147
+  },
+  "Newlands": {
+    "name": "Newlands",
+    "city": "Cape Town",
+    "matches": 7,
+    "chasingWins": 2,
+    "batFirstWins": 4,
+    "chasingWinRate": 28.6,
+    "avg1stInningsScore": 139
+  },
+  "St George's Park": {
+    "name": "St George's Park",
+    "city": "Port Elizabeth",
+    "matches": 7,
+    "chasingWins": 4,
+    "batFirstWins": 3,
+    "chasingWinRate": 57.1,
+    "avg1stInningsScore": 159
+  },
+  "Kingsmead": {
+    "name": "Kingsmead",
+    "city": "Durban",
+    "matches": 15,
+    "chasingWins": 7,
+    "batFirstWins": 8,
+    "chasingWinRate": 46.7,
+    "avg1stInningsScore": 152
+  },
+  "SuperSport Park": {
+    "name": "SuperSport Park",
+    "city": "Centurion",
+    "matches": 12,
+    "chasingWins": 8,
+    "batFirstWins": 4,
+    "chasingWinRate": 66.7,
+    "avg1stInningsScore": 155
+  },
+  "Buffalo Park": {
+    "name": "Buffalo Park",
+    "city": "East London",
+    "matches": 3,
+    "chasingWins": 1,
+    "batFirstWins": 2,
+    "chasingWinRate": 33.3,
+    "avg1stInningsScore": 147
+  },
+  "New Wanderers Stadium": {
+    "name": "New Wanderers Stadium",
+    "city": "Johannesburg",
+    "matches": 8,
+    "chasingWins": 5,
+    "batFirstWins": 3,
+    "chasingWinRate": 62.5,
+    "avg1stInningsScore": 144
+  },
+  "De Beers Diamond Oval": {
+    "name": "De Beers Diamond Oval",
+    "city": "Kimberley",
+    "matches": 3,
+    "chasingWins": 2,
+    "batFirstWins": 1,
+    "chasingWinRate": 66.7,
+    "avg1stInningsScore": 158
+  },
+  "OUTsurance Oval": {
+    "name": "OUTsurance Oval",
+    "city": "Bloemfontein",
+    "matches": 2,
+    "chasingWins": 1,
+    "batFirstWins": 1,
+    "chasingWinRate": 50.0,
+    "avg1stInningsScore": 135
+  },
+  "Brabourne Stadium": {
+    "name": "Brabourne Stadium",
+    "city": "Mumbai",
+    "matches": 10,
+    "chasingWins": 4,
+    "batFirstWins": 6,
+    "chasingWinRate": 40.0,
+    "avg1stInningsScore": 180
+  },
+  "Sardar Patel Stadium, Motera": {
+    "name": "Sardar Patel Stadium, Motera",
+    "city": "Ahmedabad",
+    "matches": 12,
+    "chasingWins": 5,
+    "batFirstWins": 6,
+    "chasingWinRate": 41.7,
+    "avg1stInningsScore": 163
+  },
+  "Barabati Stadium": {
+    "name": "Barabati Stadium",
+    "city": "Cuttack",
+    "matches": 7,
+    "chasingWins": 3,
+    "batFirstWins": 4,
+    "chasingWinRate": 42.9,
+    "avg1stInningsScore": 168
+  },
+  "Brabourne Stadium, Mumbai": {
+    "name": "Brabourne Stadium, Mumbai",
+    "city": "Mumbai",
+    "matches": 17,
+    "chasingWins": 9,
+    "batFirstWins": 8,
+    "chasingWinRate": 52.9,
+    "avg1stInningsScore": 177
+  },
+  "Vidarbha Cricket Association Stadium, Jamtha": {
+    "name": "Vidarbha Cricket Association Stadium, Jamtha",
+    "city": "Nagpur",
+    "matches": 3,
+    "chasingWins": 1,
+    "batFirstWins": 2,
+    "chasingWinRate": 33.3,
+    "avg1stInningsScore": 149
+  },
+  "Himachal Pradesh Cricket Association Stadium": {
+    "name": "Himachal Pradesh Cricket Association Stadium",
+    "city": "Dharamsala",
+    "matches": 9,
+    "chasingWins": 4,
+    "batFirstWins": 5,
+    "chasingWinRate": 44.4,
+    "avg1stInningsScore": 176
+  },
+  "Nehru Stadium": {
+    "name": "Nehru Stadium",
+    "city": "Kochi",
+    "matches": 5,
+    "chasingWins": 2,
+    "batFirstWins": 3,
+    "chasingWinRate": 40.0,
+    "avg1stInningsScore": 147
+  },
+  "Holkar Cricket Stadium": {
+    "name": "Holkar Cricket Stadium",
+    "city": "Indore",
+    "matches": 9,
+    "chasingWins": 8,
+    "batFirstWins": 1,
+    "chasingWinRate": 88.9,
+    "avg1stInningsScore": 160
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+    "name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "city": "Visakhapatnam",
+    "matches": 13,
+    "chasingWins": 7,
+    "batFirstWins": 6,
+    "chasingWinRate": 53.8,
+    "avg1stInningsScore": 157
+  },
+  "Subrata Roy Sahara Stadium": {
+    "name": "Subrata Roy Sahara Stadium",
+    "city": "Pune",
+    "matches": 16,
+    "chasingWins": 6,
+    "batFirstWins": 10,
+    "chasingWinRate": 37.5,
+    "avg1stInningsScore": 149
+  },
+  "Maharashtra Cricket Association Stadium": {
+    "name": "Maharashtra Cricket Association Stadium",
+    "city": "Pune",
+    "matches": 22,
+    "chasingWins": 14,
+    "batFirstWins": 8,
+    "chasingWinRate": 63.6,
+    "avg1stInningsScore": 166
+  },
+  "Shaheed Veer Narayan Singh International Stadium": {
+    "name": "Shaheed Veer Narayan Singh International Stadium",
+    "city": "Raipur",
+    "matches": 6,
+    "chasingWins": 4,
+    "batFirstWins": 2,
+    "chasingWinRate": 66.7,
+    "avg1stInningsScore": 146
+  },
+  "JSCA International Stadium Complex": {
+    "name": "JSCA International Stadium Complex",
+    "city": "Ranchi",
+    "matches": 7,
+    "chasingWins": 5,
+    "batFirstWins": 2,
+    "chasingWinRate": 71.4,
+    "avg1stInningsScore": 149
+  },
+  "Sheikh Zayed Stadium": {
+    "name": "Sheikh Zayed Stadium",
+    "city": "Abu Dhabi",
+    "matches": 29,
+    "chasingWins": 16,
+    "batFirstWins": 11,
+    "chasingWinRate": 55.2,
+    "avg1stInningsScore": 159
+  },
+  "Sharjah Cricket Stadium": {
+    "name": "Sharjah Cricket Stadium",
+    "city": "Sharjah",
+    "matches": 28,
+    "chasingWins": 18,
+    "batFirstWins": 10,
+    "chasingWinRate": 64.3,
+    "avg1stInningsScore": 159
+  },
+  "Dubai International Cricket Stadium": {
+    "name": "Dubai International Cricket Stadium",
+    "city": "Dubai",
+    "matches": 46,
+    "chasingWins": 22,
+    "batFirstWins": 21,
+    "chasingWinRate": 47.8,
+    "avg1stInningsScore": 164
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+    "name": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "city": "Chandigarh",
+    "matches": 11,
+    "chasingWins": 6,
+    "batFirstWins": 5,
+    "chasingWinRate": 54.5,
+    "avg1stInningsScore": 164
+  },
+  "Saurashtra Cricket Association Stadium": {
+    "name": "Saurashtra Cricket Association Stadium",
+    "city": "Rajkot",
+    "matches": 10,
+    "chasingWins": 6,
+    "batFirstWins": 3,
+    "chasingWinRate": 60.0,
+    "avg1stInningsScore": 169
+  },
+  "Green Park": {
+    "name": "Green Park",
+    "city": "Kanpur",
+    "matches": 4,
+    "chasingWins": 4,
+    "batFirstWins": 0,
+    "chasingWinRate": 100.0,
+    "avg1stInningsScore": 161
+  },
+  "M.Chinnaswamy Stadium": {
+    "name": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "matches": 15,
+    "chasingWins": 7,
+    "batFirstWins": 7,
+    "chasingWinRate": 46.7,
+    "avg1stInningsScore": 174
+  },
+  "Punjab Cricket Association IS Bindra Stadium": {
+    "name": "Punjab Cricket Association IS Bindra Stadium",
+    "city": "Chandigarh",
+    "matches": 10,
+    "chasingWins": 6,
+    "batFirstWins": 4,
+    "chasingWinRate": 60.0,
+    "avg1stInningsScore": 176
+  },
+  "Rajiv Gandhi International Stadium": {
+    "name": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "matches": 15,
+    "chasingWins": 7,
+    "batFirstWins": 8,
+    "chasingWinRate": 46.7,
+    "avg1stInningsScore": 163
+  },
+  "MA Chidambaram Stadium": {
+    "name": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "matches": 9,
+    "chasingWins": 5,
+    "batFirstWins": 4,
+    "chasingWinRate": 55.6,
+    "avg1stInningsScore": 151
+  },
+  "Arun Jaitley Stadium": {
+    "name": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "matches": 14,
+    "chasingWins": 6,
+    "batFirstWins": 7,
+    "chasingWinRate": 42.9,
+    "avg1stInningsScore": 168
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "name": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "city": "Chennai",
+    "matches": 41,
+    "chasingWins": 23,
+    "batFirstWins": 17,
+    "chasingWinRate": 56.1,
+    "avg1stInningsScore": 168
+  },
+  "Wankhede Stadium, Mumbai": {
+    "name": "Wankhede Stadium, Mumbai",
+    "city": "Mumbai",
+    "matches": 59,
+    "chasingWins": 35,
+    "batFirstWins": 24,
+    "chasingWinRate": 59.3,
+    "avg1stInningsScore": 182
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "name": "Narendra Modi Stadium, Ahmedabad",
+    "city": "Ahmedabad",
+    "matches": 41,
+    "chasingWins": 21,
+    "batFirstWins": 20,
+    "chasingWinRate": 51.2,
+    "avg1stInningsScore": 186
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "name": "Arun Jaitley Stadium, Delhi",
+    "city": "Delhi",
+    "matches": 30,
+    "chasingWins": 16,
+    "batFirstWins": 13,
+    "chasingWinRate": 53.3,
+    "avg1stInningsScore": 194
+  },
+  "Zayed Cricket Stadium, Abu Dhabi": {
+    "name": "Zayed Cricket Stadium, Abu Dhabi",
+    "city": "Abu Dhabi",
+    "matches": 8,
+    "chasingWins": 5,
+    "batFirstWins": 3,
+    "chasingWinRate": 62.5,
+    "avg1stInningsScore": 159
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "name": "Dr DY Patil Sports Academy, Mumbai",
+    "city": "Navi Mumbai",
+    "matches": 20,
+    "chasingWins": 10,
+    "batFirstWins": 10,
+    "chasingWinRate": 50.0,
+    "avg1stInningsScore": 171
+  },
+  "Maharashtra Cricket Association Stadium, Pune": {
+    "name": "Maharashtra Cricket Association Stadium, Pune",
+    "city": "Pune",
+    "matches": 13,
+    "chasingWins": 3,
+    "batFirstWins": 10,
+    "chasingWinRate": 23.1,
+    "avg1stInningsScore": 171
+  },
+  "Eden Gardens, Kolkata": {
+    "name": "Eden Gardens, Kolkata",
+    "city": "Kolkata",
+    "matches": 30,
+    "chasingWins": 13,
+    "batFirstWins": 15,
+    "chasingWinRate": 43.3,
+    "avg1stInningsScore": 196
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": {
+    "name": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+    "city": "Chandigarh",
+    "matches": 5,
+    "chasingWins": 2,
+    "batFirstWins": 3,
+    "chasingWinRate": 40.0,
+    "avg1stInningsScore": 198
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+    "city": "Lucknow",
+    "matches": 29,
+    "chasingWins": 16,
+    "batFirstWins": 11,
+    "chasingWinRate": 55.2,
+    "avg1stInningsScore": 177
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "name": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+    "city": "Hyderabad",
+    "matches": 26,
+    "chasingWins": 12,
+    "batFirstWins": 13,
+    "chasingWinRate": 46.2,
+    "avg1stInningsScore": 197
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "name": "M Chinnaswamy Stadium, Bengaluru",
+    "city": "Bengaluru",
+    "matches": 24,
+    "chasingWins": 13,
+    "batFirstWins": 11,
+    "chasingWinRate": 54.2,
+    "avg1stInningsScore": 190
+  },
+  "Barsapara Cricket Stadium, Guwahati": {
+    "name": "Barsapara Cricket Stadium, Guwahati",
+    "city": "Guwahati",
+    "matches": 8,
+    "chasingWins": 4,
+    "batFirstWins": 4,
+    "chasingWinRate": 50.0,
+    "avg1stInningsScore": 169
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "name": "Sawai Mansingh Stadium, Jaipur",
+    "city": "Jaipur",
+    "matches": 21,
+    "chasingWins": 12,
+    "batFirstWins": 9,
+    "chasingWinRate": 57.1,
+    "avg1stInningsScore": 195
+  },
+  "Himachal Pradesh Cricket Association Stadium, Dharamsala": {
+    "name": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+    "city": "Dharamsala",
+    "matches": 10,
+    "chasingWins": 3,
+    "batFirstWins": 6,
+    "chasingWinRate": 30.0,
+    "avg1stInningsScore": 214
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur": {
+    "name": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "city": "New Chandigarh",
+    "matches": 10,
+    "chasingWins": 5,
+    "batFirstWins": 5,
+    "chasingWinRate": 50.0,
+    "avg1stInningsScore": 163
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam": {
+    "name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+    "city": "Visakhapatnam",
+    "matches": 4,
+    "chasingWins": 2,
+    "batFirstWins": 2,
+    "chasingWinRate": 50.0,
+    "avg1stInningsScore": 209
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh": {
+    "name": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "city": "New Chandigarh",
+    "matches": 7,
+    "chasingWins": 4,
+    "batFirstWins": 3,
+    "chasingWinRate": 57.1,
+    "avg1stInningsScore": 220
+  },
+  "Shaheed Veer Narayan Singh International Stadium, Raipur": {
+    "name": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+    "city": "Raipur",
+    "matches": 2,
+    "chasingWins": 2,
+    "batFirstWins": 0,
+    "chasingWinRate": 100.0,
+    "avg1stInningsScore": 179
+  }
+}

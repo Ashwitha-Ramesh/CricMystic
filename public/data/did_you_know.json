@@ -1,0 +1,22 @@
+[
+  {
+    "fact": "Over 295,732 deliveries have been bowled across 1,243 IPL matches from 2008 through 2026.",
+    "category": "Deliveries"
+  },
+  {
+    "fact": "Teams chasing targets win approximately 52.8% of matches overall, rising to 68.4% when keeping required run rate below 8.00 RPO at the 10-over mark.",
+    "category": "Win Probability"
+  },
+  {
+    "fact": "The highest team total in IPL history stands at 287/3 set by Sunrisers Hyderabad in 2024 against Royal Challengers Bengaluru at Chinnaswamy Stadium.",
+    "category": "Records"
+  },
+  {
+    "fact": "Virat Kohli is the all-time leading run-scorer in IPL history, accumulating over 8,000 runs across 19 editions for Royal Challengers Bengaluru.",
+    "category": "Batting"
+  },
+  {
+    "fact": "In the 2026 Grand Final at Narendra Modi Stadium, Royal Challengers Bengaluru defeated Gujarat Titans by 5 wickets to capture their maiden championship.",
+    "category": "Champions"
+  }
+]

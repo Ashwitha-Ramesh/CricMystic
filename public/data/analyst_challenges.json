@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ch_2026_final",
+    "matchId": "1535465",
+    "title": "2026 Grand Final: GT vs RCB",
+    "situation": "Gujarat Titans scored 155/8 in 20 overs. Royal Challengers Bengaluru chasing 156 at Narendra Modi Stadium in Ahmedabad.",
+    "question": "What was the result of the 2026 IPL Grand Final?",
+    "options": [
+      "RCB scored 161/5 in 18.0 overs, winning by 5 wickets",
+      "GT defended 155, winning by 12 runs",
+      "Match tied and went to a Super Over",
+      "RCB chased down 189 in the 20th over"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Royal Challengers Bengaluru successfully chased down Gujarat Titans' total, finishing 161/5 in 18.0 overs to win by 5 wickets and lift their maiden IPL trophy. Virat Kohli was named Player of the Match."
+  },
+  {
+    "id": "ch_2023_final",
+    "matchId": "1370353",
+    "title": "2023 Final: CSK vs GT Last-Ball Climax",
+    "situation": "CSK needed 10 runs off the last 2 balls of Mohit Sharma's 15th over (revised DLS target 171 in 15 overs).",
+    "question": "What happened on the 5th ball of the final over?",
+    "options": [
+      "Ravindra Jadeja hit a straight SIX over long-on",
+      "Mohit Sharma bowled a dot yorker",
+      "Jadeja was caught at deep midwicket",
+      "Jadeja took 2 runs with a paddle sweep"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Jadeja struck a stunning straight six over long-on off Mohit Sharma's full delivery, reducing the equation to 4 runs off the final ball, which he clipped for four."
+  },
+  {
+    "id": "ch_2019_final",
+    "matchId": "1181768",
+    "title": "2019 Final: MI vs CSK 1-Run Thriller",
+    "situation": "CSK needed 2 runs to win off the final ball bowled by Lasith Malinga to Shardul Thakur.",
+    "question": "How did Lasith Malinga seal victory for Mumbai Indians?",
+    "options": [
+      "Slow dipping Yorker trapping Shardul Thakur LBW",
+      "145 km/h Yorker clean bowling Thakur",
+      "Thakur skied a catch to deep midwicket",
+      "Thakur was run out taking a bye"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Malinga outfoxed Shardul Thakur with a legendary slower yorker, trapping him plumb in front of the stumps to seal a 1-run victory."
+  }
+]

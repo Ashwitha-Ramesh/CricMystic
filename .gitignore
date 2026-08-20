@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+coverage/
+
+# Environment / secrets
+.env*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs / OS
+*.log
+.DS_Store
+
+# Raw / temporary datasets
+data/raw/
+data_temp_ipl.zip

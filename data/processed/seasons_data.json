@@ -1,0 +1,781 @@
+[
+  {
+    "season": 2008,
+    "year": 2008,
+    "matches": 58,
+    "runs": 17937,
+    "sixes": 623,
+    "fours": 1703,
+    "wickets": 689,
+    "deliveries": 13489,
+    "avgRunsPerMatch": 309.3,
+    "highestScore": {
+      "runs": 240,
+      "wickets": 5,
+      "team": "Chennai Super Kings",
+      "opponent": "Punjab Kings",
+      "matchId": "335983",
+      "date": "2008-04-19"
+    },
+    "lowestScore": {
+      "runs": 67,
+      "wickets": 10,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Mumbai Indians",
+      "matchId": "336021",
+      "date": "2008-05-16"
+    },
+    "highestChase": {
+      "target": 215,
+      "runs": 217,
+      "wickets": 7,
+      "team": "Rajasthan Royals",
+      "opponent": "Deccan Chargers",
+      "matchId": "335990",
+      "date": "2008-04-24"
+    },
+    "champion": "Rajasthan Royals",
+    "runnerUp": "Chennai Super Kings",
+    "finalMatchId": "336040",
+    "finalVenue": "Dr DY Patil Sports Academy",
+    "finalMargin": "3 wickets"
+  },
+  {
+    "season": 2009,
+    "year": 2009,
+    "matches": 57,
+    "runs": 16353,
+    "sixes": 508,
+    "fours": 1321,
+    "wickets": 698,
+    "deliveries": 13606,
+    "avgRunsPerMatch": 286.9,
+    "highestScore": {
+      "runs": 211,
+      "wickets": 4,
+      "team": "Rajasthan Royals",
+      "opponent": "Punjab Kings",
+      "matchId": "392210",
+      "date": "2009-05-05"
+    },
+    "lowestScore": {
+      "runs": 58,
+      "wickets": 10,
+      "team": "Rajasthan Royals",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "392182",
+      "date": "2009-04-18"
+    },
+    "highestChase": {
+      "target": 189,
+      "runs": 189,
+      "wickets": 3,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Chennai Super Kings",
+      "matchId": "392231",
+      "date": "2009-05-18"
+    },
+    "champion": "Deccan Chargers",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "finalMatchId": "392239",
+    "finalVenue": "New Wanderers Stadium",
+    "finalMargin": "6 runs"
+  },
+  {
+    "season": 2010,
+    "year": 2010,
+    "matches": 60,
+    "runs": 18883,
+    "sixes": 587,
+    "fours": 1709,
+    "wickets": 723,
+    "deliveries": 14498,
+    "avgRunsPerMatch": 314.7,
+    "highestScore": {
+      "runs": 246,
+      "wickets": 5,
+      "team": "Chennai Super Kings",
+      "opponent": "Rajasthan Royals",
+      "matchId": "419137",
+      "date": "2010-04-03"
+    },
+    "lowestScore": {
+      "runs": 82,
+      "wickets": 10,
+      "team": "Deccan Chargers",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "419164",
+      "date": "2010-04-24"
+    },
+    "highestChase": {
+      "target": 204,
+      "runs": 204,
+      "wickets": 2,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Punjab Kings",
+      "matchId": "419112",
+      "date": "2010-03-16"
+    },
+    "champion": "Chennai Super Kings",
+    "runnerUp": "Mumbai Indians",
+    "finalMatchId": "419165",
+    "finalVenue": "Dr DY Patil Sports Academy",
+    "finalMargin": "22 runs"
+  },
+  {
+    "season": 2011,
+    "year": 2011,
+    "matches": 73,
+    "runs": 21154,
+    "sixes": 639,
+    "fours": 1916,
+    "wickets": 813,
+    "deliveries": 17013,
+    "avgRunsPerMatch": 289.8,
+    "highestScore": {
+      "runs": 232,
+      "wickets": 2,
+      "team": "Punjab Kings",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "501260",
+      "date": "2011-05-17"
+    },
+    "lowestScore": {
+      "runs": 74,
+      "wickets": 10,
+      "team": "Kochi Tuskers Kerala",
+      "opponent": "Deccan Chargers",
+      "matchId": "501229",
+      "date": "2011-04-27"
+    },
+    "highestChase": {
+      "target": 189,
+      "runs": 193,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Chennai Super Kings",
+      "matchId": "501206",
+      "date": "2011-04-13"
+    },
+    "champion": "Chennai Super Kings",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "finalMatchId": "501271",
+    "finalVenue": "MA Chidambaram Stadium, Chepauk",
+    "finalMargin": "58 runs"
+  },
+  {
+    "season": 2012,
+    "year": 2012,
+    "matches": 74,
+    "runs": 22453,
+    "sixes": 733,
+    "fours": 1911,
+    "wickets": 857,
+    "deliveries": 17767,
+    "avgRunsPerMatch": 303.4,
+    "highestScore": {
+      "runs": 222,
+      "wickets": 5,
+      "team": "Chennai Super Kings",
+      "opponent": "Delhi Capitals",
+      "matchId": "548380",
+      "date": "2012-05-25"
+    },
+    "lowestScore": {
+      "runs": 92,
+      "wickets": 10,
+      "team": "Mumbai Indians",
+      "opponent": "Delhi Capitals",
+      "matchId": "548325",
+      "date": "2012-04-16"
+    },
+    "highestChase": {
+      "target": 206,
+      "runs": 208,
+      "wickets": 5,
+      "team": "Chennai Super Kings",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "548318",
+      "date": "2012-04-12"
+    },
+    "champion": "Kolkata Knight Riders",
+    "runnerUp": "Chennai Super Kings",
+    "finalMatchId": "548381",
+    "finalVenue": "MA Chidambaram Stadium, Chepauk",
+    "finalMargin": "5 wickets"
+  },
+  {
+    "season": 2013,
+    "year": 2013,
+    "matches": 76,
+    "runs": 22602,
+    "sixes": 681,
+    "fours": 2054,
+    "wickets": 911,
+    "deliveries": 18177,
+    "avgRunsPerMatch": 297.4,
+    "highestScore": {
+      "runs": 263,
+      "wickets": 5,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Pune Warriors",
+      "matchId": "598027",
+      "date": "2013-04-23"
+    },
+    "lowestScore": {
+      "runs": 79,
+      "wickets": 10,
+      "team": "Chennai Super Kings",
+      "opponent": "Mumbai Indians",
+      "matchId": "598046",
+      "date": "2013-05-05"
+    },
+    "highestChase": {
+      "target": 191,
+      "runs": 194,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "598064",
+      "date": "2013-05-06"
+    },
+    "champion": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "finalMatchId": "598073",
+    "finalVenue": "Eden Gardens",
+    "finalMargin": "23 runs"
+  },
+  {
+    "season": 2014,
+    "year": 2014,
+    "matches": 60,
+    "runs": 18931,
+    "sixes": 715,
+    "fours": 1563,
+    "wickets": 673,
+    "deliveries": 14300,
+    "avgRunsPerMatch": 315.5,
+    "highestScore": {
+      "runs": 231,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Chennai Super Kings",
+      "matchId": "733987",
+      "date": "2014-05-07"
+    },
+    "lowestScore": {
+      "runs": 70,
+      "wickets": 10,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Rajasthan Royals",
+      "matchId": "729305",
+      "date": "2014-04-26"
+    },
+    "highestChase": {
+      "target": 206,
+      "runs": 211,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Sunrisers Hyderabad",
+      "matchId": "734007",
+      "date": "2014-05-14"
+    },
+    "champion": "Kolkata Knight Riders",
+    "runnerUp": "Punjab Kings",
+    "finalMatchId": "734049",
+    "finalVenue": "M Chinnaswamy Stadium",
+    "finalMargin": "3 wickets"
+  },
+  {
+    "season": 2015,
+    "year": 2015,
+    "matches": 59,
+    "runs": 18353,
+    "sixes": 692,
+    "fours": 1611,
+    "wickets": 690,
+    "deliveries": 13652,
+    "avgRunsPerMatch": 311.1,
+    "highestScore": {
+      "runs": 235,
+      "wickets": 1,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Mumbai Indians",
+      "matchId": "829795",
+      "date": "2015-05-10"
+    },
+    "lowestScore": {
+      "runs": 88,
+      "wickets": 10,
+      "team": "Punjab Kings",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "829785",
+      "date": "2015-05-06"
+    },
+    "highestChase": {
+      "target": 184,
+      "runs": 189,
+      "wickets": 4,
+      "team": "Chennai Super Kings",
+      "opponent": "Mumbai Indians",
+      "matchId": "829729",
+      "date": "2015-04-17"
+    },
+    "champion": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "finalMatchId": "829823",
+    "finalVenue": "Eden Gardens",
+    "finalMargin": "41 runs"
+  },
+  {
+    "season": 2016,
+    "year": 2016,
+    "matches": 60,
+    "runs": 18862,
+    "sixes": 639,
+    "fours": 1633,
+    "wickets": 665,
+    "deliveries": 14096,
+    "avgRunsPerMatch": 314.4,
+    "highestScore": {
+      "runs": 248,
+      "wickets": 3,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Gujarat Lions",
+      "matchId": "980987",
+      "date": "2016-05-14"
+    },
+    "lowestScore": {
+      "runs": 92,
+      "wickets": 10,
+      "team": "Mumbai Indians",
+      "opponent": "Sunrisers Hyderabad",
+      "matchId": "980973",
+      "date": "2016-05-08"
+    },
+    "highestChase": {
+      "target": 196,
+      "runs": 196,
+      "wickets": 7,
+      "team": "Gujarat Lions",
+      "opponent": "Rising Pune Supergiant",
+      "matchId": "980949",
+      "date": "2016-04-29"
+    },
+    "champion": "Sunrisers Hyderabad",
+    "runnerUp": "Royal Challengers Bengaluru",
+    "finalMatchId": "981019",
+    "finalVenue": "M Chinnaswamy Stadium",
+    "finalMargin": "8 runs"
+  },
+  {
+    "season": 2017,
+    "year": 2017,
+    "matches": 59,
+    "runs": 18786,
+    "sixes": 706,
+    "fours": 1612,
+    "wickets": 710,
+    "deliveries": 13862,
+    "avgRunsPerMatch": 318.4,
+    "highestScore": {
+      "runs": 230,
+      "wickets": 3,
+      "team": "Punjab Kings",
+      "opponent": "Mumbai Indians",
+      "matchId": "1082641",
+      "date": "2017-05-11"
+    },
+    "lowestScore": {
+      "runs": 49,
+      "wickets": 10,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Kolkata Knight Riders",
+      "matchId": "1082617",
+      "date": "2017-04-23"
+    },
+    "highestChase": {
+      "target": 209,
+      "runs": 214,
+      "wickets": 3,
+      "team": "Delhi Capitals",
+      "opponent": "Gujarat Lions",
+      "matchId": "1082632",
+      "date": "2017-05-04"
+    },
+    "champion": "Mumbai Indians",
+    "runnerUp": "Rising Pune Supergiant",
+    "finalMatchId": "1082650",
+    "finalVenue": "Rajiv Gandhi International Stadium, Uppal",
+    "finalMargin": "1 runs"
+  },
+  {
+    "season": 2018,
+    "year": 2018,
+    "matches": 60,
+    "runs": 19901,
+    "sixes": 872,
+    "fours": 1652,
+    "wickets": 720,
+    "deliveries": 14286,
+    "avgRunsPerMatch": 331.7,
+    "highestScore": {
+      "runs": 245,
+      "wickets": 6,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Punjab Kings",
+      "matchId": "1136604",
+      "date": "2018-05-12"
+    },
+    "lowestScore": {
+      "runs": 87,
+      "wickets": 10,
+      "team": "Mumbai Indians",
+      "opponent": "Sunrisers Hyderabad",
+      "matchId": "1136583",
+      "date": "2018-04-24"
+    },
+    "highestChase": {
+      "target": 206,
+      "runs": 207,
+      "wickets": 5,
+      "team": "Chennai Super Kings",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1136584",
+      "date": "2018-04-25"
+    },
+    "champion": "Chennai Super Kings",
+    "runnerUp": "Sunrisers Hyderabad",
+    "finalMatchId": "1136620",
+    "finalVenue": "Wankhede Stadium",
+    "finalMargin": "8 wickets"
+  },
+  {
+    "season": 2019,
+    "year": 2019,
+    "matches": 60,
+    "runs": 19434,
+    "sixes": 786,
+    "fours": 1655,
+    "wickets": 685,
+    "deliveries": 14312,
+    "avgRunsPerMatch": 323.9,
+    "highestScore": {
+      "runs": 232,
+      "wickets": 2,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Mumbai Indians",
+      "matchId": "1178422",
+      "date": "2019-04-28"
+    },
+    "lowestScore": {
+      "runs": 70,
+      "wickets": 10,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Chennai Super Kings",
+      "matchId": "1175356",
+      "date": "2019-03-23"
+    },
+    "highestChase": {
+      "target": 206,
+      "runs": 206,
+      "wickets": 5,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1175372",
+      "date": "2019-04-05"
+    },
+    "champion": "Mumbai Indians",
+    "runnerUp": "Chennai Super Kings",
+    "finalMatchId": "1181768",
+    "finalVenue": "Rajiv Gandhi International Stadium",
+    "finalMargin": "1 runs"
+  },
+  {
+    "season": 2020,
+    "year": 2020,
+    "matches": 60,
+    "runs": 19416,
+    "sixes": 736,
+    "fours": 1589,
+    "wickets": 677,
+    "deliveries": 14559,
+    "avgRunsPerMatch": 323.6,
+    "highestScore": {
+      "runs": 228,
+      "wickets": 4,
+      "team": "Delhi Capitals",
+      "opponent": "Kolkata Knight Riders",
+      "matchId": "1216515",
+      "date": "2020-10-03"
+    },
+    "lowestScore": {
+      "runs": 84,
+      "wickets": 8,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1216494",
+      "date": "2020-10-21"
+    },
+    "highestChase": {
+      "target": 224,
+      "runs": 226,
+      "wickets": 6,
+      "team": "Rajasthan Royals",
+      "opponent": "Punjab Kings",
+      "matchId": "1216527",
+      "date": "2020-09-27"
+    },
+    "champion": "Mumbai Indians",
+    "runnerUp": "Delhi Capitals",
+    "finalMatchId": "1237181",
+    "finalVenue": "Dubai International Cricket Stadium",
+    "finalMargin": "5 wickets"
+  },
+  {
+    "season": 2021,
+    "year": 2021,
+    "matches": 60,
+    "runs": 18637,
+    "sixes": 687,
+    "fours": 1551,
+    "wickets": 716,
+    "deliveries": 14425,
+    "avgRunsPerMatch": 310.6,
+    "highestScore": {
+      "runs": 235,
+      "wickets": 9,
+      "team": "Mumbai Indians",
+      "opponent": "Sunrisers Hyderabad",
+      "matchId": "1254088",
+      "date": "2021-10-08"
+    },
+    "lowestScore": {
+      "runs": 85,
+      "wickets": 10,
+      "team": "Rajasthan Royals",
+      "opponent": "Kolkata Knight Riders",
+      "matchId": "1254106",
+      "date": "2021-10-07"
+    },
+    "highestChase": {
+      "target": 219,
+      "runs": 219,
+      "wickets": 6,
+      "team": "Mumbai Indians",
+      "opponent": "Chennai Super Kings",
+      "matchId": "1254084",
+      "date": "2021-05-01"
+    },
+    "champion": "Chennai Super Kings",
+    "runnerUp": "Kolkata Knight Riders",
+    "finalMatchId": "1254117",
+    "finalVenue": "Dubai International Cricket Stadium",
+    "finalMargin": "27 runs"
+  },
+  {
+    "season": 2022,
+    "year": 2022,
+    "matches": 74,
+    "runs": 24395,
+    "sixes": 1062,
+    "fours": 2020,
+    "wickets": 911,
+    "deliveries": 17912,
+    "avgRunsPerMatch": 329.7,
+    "highestScore": {
+      "runs": 222,
+      "wickets": 2,
+      "team": "Rajasthan Royals",
+      "opponent": "Delhi Capitals",
+      "matchId": "1304080",
+      "date": "2022-04-22"
+    },
+    "lowestScore": {
+      "runs": 68,
+      "wickets": 10,
+      "team": "Royal Challengers Bengaluru",
+      "opponent": "Sunrisers Hyderabad",
+      "matchId": "1304082",
+      "date": "2022-04-23"
+    },
+    "highestChase": {
+      "target": 211,
+      "runs": 211,
+      "wickets": 4,
+      "team": "Lucknow Super Giants",
+      "opponent": "Chennai Super Kings",
+      "matchId": "1304053",
+      "date": "2022-03-31"
+    },
+    "champion": "Gujarat Titans",
+    "runnerUp": "Rajasthan Royals",
+    "finalMatchId": "1312200",
+    "finalVenue": "Narendra Modi Stadium, Ahmedabad",
+    "finalMargin": "7 wickets"
+  },
+  {
+    "season": 2023,
+    "year": 2023,
+    "matches": 74,
+    "runs": 25688,
+    "sixes": 1124,
+    "fours": 2175,
+    "wickets": 914,
+    "deliveries": 17863,
+    "avgRunsPerMatch": 347.1,
+    "highestScore": {
+      "runs": 257,
+      "wickets": 5,
+      "team": "Lucknow Super Giants",
+      "opponent": "Punjab Kings",
+      "matchId": "1359512",
+      "date": "2023-04-28"
+    },
+    "lowestScore": {
+      "runs": 59,
+      "wickets": 10,
+      "team": "Rajasthan Royals",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1359534",
+      "date": "2023-05-14"
+    },
+    "highestChase": {
+      "target": 215,
+      "runs": 217,
+      "wickets": 6,
+      "team": "Sunrisers Hyderabad",
+      "opponent": "Rajasthan Royals",
+      "matchId": "1359526",
+      "date": "2023-05-07"
+    },
+    "champion": "Chennai Super Kings",
+    "runnerUp": "Gujarat Titans",
+    "finalMatchId": "1370353",
+    "finalVenue": "Narendra Modi Stadium, Ahmedabad",
+    "finalMargin": "5 wickets"
+  },
+  {
+    "season": 2024,
+    "year": 2024,
+    "matches": 71,
+    "runs": 25971,
+    "sixes": 1261,
+    "fours": 2175,
+    "wickets": 883,
+    "deliveries": 17103,
+    "avgRunsPerMatch": 365.8,
+    "highestScore": {
+      "runs": 287,
+      "wickets": 3,
+      "team": "Sunrisers Hyderabad",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1426268",
+      "date": "2024-04-15"
+    },
+    "lowestScore": {
+      "runs": 89,
+      "wickets": 10,
+      "team": "Gujarat Titans",
+      "opponent": "Delhi Capitals",
+      "matchId": "1426270",
+      "date": "2024-04-17"
+    },
+    "highestChase": {
+      "target": 262,
+      "runs": 262,
+      "wickets": 2,
+      "team": "Punjab Kings",
+      "opponent": "Kolkata Knight Riders",
+      "matchId": "1426280",
+      "date": "2024-04-26"
+    },
+    "champion": "Kolkata Knight Riders",
+    "runnerUp": "Sunrisers Hyderabad",
+    "finalMatchId": "1426312",
+    "finalVenue": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "finalMargin": "8 wickets"
+  },
+  {
+    "season": 2025,
+    "year": 2025,
+    "matches": 74,
+    "runs": 26527,
+    "sixes": 1302,
+    "fours": 2263,
+    "wickets": 871,
+    "deliveries": 17285,
+    "avgRunsPerMatch": 358.5,
+    "highestScore": {
+      "runs": 286,
+      "wickets": 6,
+      "team": "Sunrisers Hyderabad",
+      "opponent": "Rajasthan Royals",
+      "matchId": "1473439",
+      "date": "2025-03-23"
+    },
+    "lowestScore": {
+      "runs": 95,
+      "wickets": 10,
+      "team": "Kolkata Knight Riders",
+      "opponent": "Punjab Kings",
+      "matchId": "1473468",
+      "date": "2025-04-15"
+    },
+    "highestChase": {
+      "target": 246,
+      "runs": 247,
+      "wickets": 2,
+      "team": "Sunrisers Hyderabad",
+      "opponent": "Punjab Kings",
+      "matchId": "1473464",
+      "date": "2025-04-12"
+    },
+    "champion": "Royal Challengers Bengaluru",
+    "runnerUp": "Punjab Kings",
+    "finalMatchId": "1473511",
+    "finalVenue": "Narendra Modi Stadium, Ahmedabad",
+    "finalMargin": "6 runs"
+  },
+  {
+    "season": 2026,
+    "year": 2026,
+    "matches": 74,
+    "runs": 27455,
+    "sixes": 1426,
+    "fours": 2334,
+    "wickets": 880,
+    "deliveries": 17527,
+    "avgRunsPerMatch": 371.0,
+    "highestScore": {
+      "runs": 265,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Delhi Capitals",
+      "matchId": "1529278",
+      "date": "2026-04-25"
+    },
+    "lowestScore": {
+      "runs": 75,
+      "wickets": 10,
+      "team": "Delhi Capitals",
+      "opponent": "Royal Challengers Bengaluru",
+      "matchId": "1529282",
+      "date": "2026-04-27"
+    },
+    "highestChase": {
+      "target": 265,
+      "runs": 265,
+      "wickets": 4,
+      "team": "Punjab Kings",
+      "opponent": "Delhi Capitals",
+      "matchId": "1529278",
+      "date": "2026-04-25"
+    },
+    "champion": "Royal Challengers Bengaluru",
+    "runnerUp": "Gujarat Titans",
+    "finalMatchId": "1535465",
+    "finalVenue": "Narendra Modi Stadium, Ahmedabad",
+    "finalMargin": "5 wickets"
+  }
+]

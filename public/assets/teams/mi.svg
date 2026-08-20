@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="miBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004BA0" />
+      <stop offset="100%" stop-color="#002244" />
+    </linearGradient>
+    <linearGradient id="miGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D1AB3E" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+  <path d="M60 6 L108 20 C108 72 60 112 60 112 C60 112 12 72 12 20 Z" fill="url(#miBlue)" stroke="url(#miGold)" stroke-width="3" />
+  <circle cx="60" cy="52" r="24" fill="none" stroke="url(#miGold)" stroke-width="3" stroke-dasharray="6,4" />
+  <!-- Sudarshan Chakra Razor Blades -->
+  <path d="M60 32 L64 46 L78 50 L66 58 L68 72 L56 64 L44 70 L48 56 L36 50 L50 46 Z" fill="url(#miGold)" />
+  <text x="60" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">MI</text>
+</svg>

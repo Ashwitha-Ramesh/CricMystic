@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lsgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0057B7" />
+      <stop offset="100%" stop-color="#A72056" />
+    </linearGradient>
+  </defs>
+  <path d="M60 6 L108 20 C108 72 60 112 60 112 C60 112 12 72 12 20 Z" fill="url(#lsgGrad)" stroke="#FFB81C" stroke-width="3" />
+  <path d="M38 46 Q60 30 82 46 Q60 58 38 46 Z" fill="#FFB81C" />
+  <text x="60" y="93" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">LSG</text>
+</svg>

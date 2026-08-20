@@ -1,0 +1,209 @@
+{
+  "Royal Challengers Bengaluru": {
+    "name": "Royal Challengers Bengaluru",
+    "matches": 286,
+    "wins": 143,
+    "losses": 137,
+    "noResults": 6,
+    "winRate": 50.0,
+    "titles": 2,
+    "titleYears": [
+      2025,
+      2026
+    ],
+    "finals": 5,
+    "seasonsActive": 19
+  },
+  "Kolkata Knight Riders": {
+    "name": "Kolkata Knight Riders",
+    "matches": 278,
+    "wins": 140,
+    "losses": 131,
+    "noResults": 7,
+    "winRate": 50.4,
+    "titles": 3,
+    "titleYears": [
+      2012,
+      2014,
+      2024
+    ],
+    "finals": 4,
+    "seasonsActive": 19
+  },
+  "Punjab Kings": {
+    "name": "Punjab Kings",
+    "matches": 278,
+    "wins": 126,
+    "losses": 145,
+    "noResults": 7,
+    "winRate": 45.3,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 2,
+    "seasonsActive": 19
+  },
+  "Chennai Super Kings": {
+    "name": "Chennai Super Kings",
+    "matches": 266,
+    "wins": 148,
+    "losses": 116,
+    "noResults": 2,
+    "winRate": 55.6,
+    "titles": 5,
+    "titleYears": [
+      2010,
+      2011,
+      2018,
+      2021,
+      2023
+    ],
+    "finals": 10,
+    "seasonsActive": 17
+  },
+  "Delhi Capitals": {
+    "name": "Delhi Capitals",
+    "matches": 281,
+    "wins": 125,
+    "losses": 147,
+    "noResults": 9,
+    "winRate": 44.5,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 1,
+    "seasonsActive": 19
+  },
+  "Rajasthan Royals": {
+    "name": "Rajasthan Royals",
+    "matches": 251,
+    "wins": 123,
+    "losses": 122,
+    "noResults": 6,
+    "winRate": 49.0,
+    "titles": 1,
+    "titleYears": [
+      2008
+    ],
+    "finals": 2,
+    "seasonsActive": 17
+  },
+  "Mumbai Indians": {
+    "name": "Mumbai Indians",
+    "matches": 291,
+    "wins": 155,
+    "losses": 132,
+    "noResults": 4,
+    "winRate": 53.3,
+    "titles": 5,
+    "titleYears": [
+      2013,
+      2015,
+      2017,
+      2019,
+      2020
+    ],
+    "finals": 6,
+    "seasonsActive": 19
+  },
+  "Deccan Chargers": {
+    "name": "Deccan Chargers",
+    "matches": 75,
+    "wins": 29,
+    "losses": 46,
+    "noResults": 0,
+    "winRate": 38.7,
+    "titles": 1,
+    "titleYears": [
+      2009
+    ],
+    "finals": 1,
+    "seasonsActive": 5
+  },
+  "Kochi Tuskers Kerala": {
+    "name": "Kochi Tuskers Kerala",
+    "matches": 14,
+    "wins": 6,
+    "losses": 8,
+    "noResults": 0,
+    "winRate": 42.9,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 0,
+    "seasonsActive": 1
+  },
+  "Pune Warriors": {
+    "name": "Pune Warriors",
+    "matches": 46,
+    "wins": 12,
+    "losses": 33,
+    "noResults": 1,
+    "winRate": 26.1,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 0,
+    "seasonsActive": 3
+  },
+  "Sunrisers Hyderabad": {
+    "name": "Sunrisers Hyderabad",
+    "matches": 211,
+    "wins": 102,
+    "losses": 104,
+    "noResults": 5,
+    "winRate": 48.3,
+    "titles": 1,
+    "titleYears": [
+      2016
+    ],
+    "finals": 3,
+    "seasonsActive": 14
+  },
+  "Rising Pune Supergiant": {
+    "name": "Rising Pune Supergiant",
+    "matches": 30,
+    "wins": 15,
+    "losses": 15,
+    "noResults": 0,
+    "winRate": 50.0,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 1,
+    "seasonsActive": 2
+  },
+  "Gujarat Lions": {
+    "name": "Gujarat Lions",
+    "matches": 30,
+    "wins": 13,
+    "losses": 16,
+    "noResults": 1,
+    "winRate": 43.3,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 0,
+    "seasonsActive": 2
+  },
+  "Lucknow Super Giants": {
+    "name": "Lucknow Super Giants",
+    "matches": 72,
+    "wins": 34,
+    "losses": 36,
+    "noResults": 2,
+    "winRate": 47.2,
+    "titles": 0,
+    "titleYears": [],
+    "finals": 0,
+    "seasonsActive": 5
+  },
+  "Gujarat Titans": {
+    "name": "Gujarat Titans",
+    "matches": 77,
+    "wins": 47,
+    "losses": 30,
+    "noResults": 0,
+    "winRate": 61.0,
+    "titles": 1,
+    "titleYears": [
+      2022
+    ],
+    "finals": 3,
+    "seasonsActive": 5
+  }
+}

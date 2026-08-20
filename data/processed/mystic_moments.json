@@ -1,0 +1,138 @@
+[
+  {
+    "id": "rcb_2026_glory",
+    "title": "RCB's Maiden IPL Championship Victory (2026 Final)",
+    "season": 2026,
+    "date": "2026-05-31",
+    "matchId": "1535465",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "teams": [
+      "Gujarat Titans",
+      "Royal Challengers Bengaluru"
+    ],
+    "winner": "Royal Challengers Bengaluru",
+    "margin": "5 wickets",
+    "summary": "Gujarat Titans posted 155/8 in 20 overs. Royal Challengers Bengaluru chased down the target, scoring 161/5 in 18.0 overs to win by 5 wickets and lift their maiden IPL trophy. Virat Kohli was named Player of the Match.",
+    "hero": "Virat Kohli",
+    "tag": "Final"
+  },
+  {
+    "id": "csk_2023_last_ball",
+    "title": "CSK's Thrilling 5th Title in Rain-hit Final",
+    "season": 2023,
+    "date": "2023-05-29",
+    "matchId": "1370353",
+    "venue": "Narendra Modi Stadium, Ahmedabad",
+    "teams": [
+      "Gujarat Titans",
+      "Chennai Super Kings"
+    ],
+    "winner": "Chennai Super Kings",
+    "margin": "5 wickets (DLS)",
+    "summary": "Gujarat Titans posted 214/4. In a rain-curtailed 15-over chase of 171, Ravindra Jadeja hit 10 off the last 2 balls (6, 4) off Mohit Sharma to clinch CSK's fifth IPL trophy.",
+    "hero": "Ravindra Jadeja",
+    "tag": "Iconic Finish"
+  },
+  {
+    "id": "pbks_2024_record_chase",
+    "title": "Punjab Kings Smash Highest T20 Run Chase (262)",
+    "season": 2024,
+    "date": "2024-04-26",
+    "matchId": "1426284",
+    "venue": "Eden Gardens, Kolkata",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Punjab Kings"
+    ],
+    "winner": "Punjab Kings",
+    "margin": "8 wickets",
+    "summary": "KKR posted a massive 261/6. Punjab Kings achieved the highest successful run chase in T20 history, blasting 262/2 in just 18.4 overs led by Jonny Bairstow's unbeaten century.",
+    "hero": "Jonny Bairstow",
+    "tag": "World Record"
+  },
+  {
+    "id": "mi_2019_one_run",
+    "title": "MI Clinches 4th Title by 1 Run against CSK",
+    "season": 2019,
+    "date": "2019-05-12",
+    "matchId": "1181768",
+    "venue": "Rajiv Gandhi Intl Stadium, Hyderabad",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "winner": "Mumbai Indians",
+    "margin": "1 run",
+    "summary": "Mumbai Indians defended 149/8, with Lasith Malinga trapping Shardul Thakur LBW with a classic slower yorker on the final delivery to secure a 1-run championship triumph.",
+    "hero": "Lasith Malinga",
+    "tag": "Final"
+  },
+  {
+    "id": "mi_2017_one_run",
+    "title": "MI Defends 129 in Thriller vs Rising Pune Supergiant",
+    "season": 2017,
+    "date": "2017-05-21",
+    "matchId": "1082650",
+    "venue": "Rajiv Gandhi Intl Stadium, Hyderabad",
+    "teams": [
+      "Mumbai Indians",
+      "Rising Pune Supergiant"
+    ],
+    "winner": "Mumbai Indians",
+    "margin": "1 run",
+    "summary": "Mumbai Indians scored 129/8 and defended it with Mitchell Johnson taking 2 wickets in the final over, as RPS finished 128/6, falling 1 run short of the title.",
+    "hero": "Mitchell Johnson",
+    "tag": "Final"
+  },
+  {
+    "id": "kkr_2014_chase",
+    "title": "Manish Pandey's 94 Powers KKR in 200-Run Final Chase",
+    "season": 2014,
+    "date": "2014-06-01",
+    "matchId": "734049",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "teams": [
+      "Punjab Kings",
+      "Kolkata Knight Riders"
+    ],
+    "winner": "Kolkata Knight Riders",
+    "margin": "3 wickets",
+    "summary": "Wriddhiman Saha's 115* propelled Punjab to 199/4. KKR completed a record chase of 200/7 in 19.3 overs driven by Manish Pandey's 94 off 50 balls.",
+    "hero": "Manish Pandey",
+    "tag": "Record Chase"
+  },
+  {
+    "id": "gayle_175_2013",
+    "title": "Chris Gayle's Historic 175* off 66 Balls",
+    "season": 2013,
+    "date": "2013-04-23",
+    "matchId": "598027",
+    "venue": "M. Chinnaswamy Stadium, Bengaluru",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Pune Warriors"
+    ],
+    "winner": "Royal Challengers Bengaluru",
+    "margin": "130 runs",
+    "summary": "Chris Gayle smashed the highest individual score in T20 history (175* off 66 balls with 17 sixes and 13 fours), powering RCB to 263/5.",
+    "hero": "Chris Gayle",
+    "tag": "All-Time Record"
+  },
+  {
+    "id": "rr_2008_inaugural",
+    "title": "Rajasthan Royals Win Inaugural IPL (2008)",
+    "season": 2008,
+    "date": "2008-06-01",
+    "matchId": "336040",
+    "venue": "DY Patil Stadium, Mumbai",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "winner": "Rajasthan Royals",
+    "margin": "3 wickets",
+    "summary": "CSK posted 163/5. Yusuf Pathan's all-round masterclass (3/22 and 56 off 39) brought RR to victory on the final ball with 3 wickets in hand.",
+    "hero": "Yusuf Pathan",
+    "tag": "Inaugural Final"
+  }
+]

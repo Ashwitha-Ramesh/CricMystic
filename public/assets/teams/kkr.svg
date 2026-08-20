@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kkrPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B2067" />
+      <stop offset="100%" stop-color="#260C38" />
+    </linearGradient>
+    <linearGradient id="kkrGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#DAA520" />
+    </linearGradient>
+  </defs>
+  <path d="M60 6 L108 20 C108 72 60 112 60 112 C60 112 12 72 12 20 Z" fill="url(#kkrPurple)" stroke="url(#kkrGold)" stroke-width="3" />
+  <!-- Knight Helmet / Flame -->
+  <path d="M60 28 L74 46 L60 40 L46 46 Z" fill="url(#kkrGold)" />
+  <path d="M44 48 C44 64 52 72 60 74 C68 72 76 64 76 48 Z" fill="url(#kkrGold)" opacity="0.9" />
+  <text x="60" y="93" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="url(#kkrGold)" text-anchor="middle" letter-spacing="2">KKR</text>
+</svg>

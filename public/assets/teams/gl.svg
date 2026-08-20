@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="glGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E05021" />
+      <stop offset="100%" stop-color="#3F5874" />
+    </linearGradient>
+  </defs>
+  <path d="M60 6 L108 20 C108 72 60 112 60 112 C60 112 12 72 12 20 Z" fill="url(#glGrad)" stroke="#FFFFFF" stroke-width="3" />
+  <circle cx="60" cy="50" r="18" fill="#FFFFFF" opacity="0.85" />
+  <text x="60" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">GL</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "CricMystic",
+  "description": "Cricket, decoded ball by ball. Built by an RCBian. An IPL match intelligence and win-probability analytics platform with historical ball-by-ball replay, turning points engine, simulator, and data explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

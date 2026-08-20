@@ -1,0 +1,13 @@
+{
+  "source": "Cricsheet",
+  "source_url": "https://cricsheet.org/downloads/ipl_json.zip",
+  "retrieval_timestamp": "2026-08-16T07:26:49.147293Z",
+  "source_checksum": "841b98290a08bdf2a063a9f4d6342fb2363ff246491ed3db4c571bddb6ea2a79",
+  "first_season": 2008,
+  "latest_season": 2026,
+  "match_count": 1243,
+  "delivery_count": 295732,
+  "processed_timestamp": "2026-08-16T07:26:49.147297Z",
+  "pipeline_version": "2.0.0-cricsheet",
+  "model_version": "2.0.0-calibrated-lr"
+}

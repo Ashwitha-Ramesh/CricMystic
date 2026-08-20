@@ -1,0 +1,393 @@
+{
+  "model_type": "Calibrated Logistic Regression",
+  "version": "1.0.0",
+  "training_date": "2026-08-17",
+  "training_summary": {
+    "total_samples": 140282,
+    "train_seasons": "2008-2023",
+    "val_seasons": "2024",
+    "test_seasons": "2025-2026"
+  },
+  "featureKeys": [
+    "balls_remaining",
+    "runs_required",
+    "wickets_remaining",
+    "current_rr",
+    "required_rr",
+    "rrr_crr_diff",
+    "chase_progress",
+    "last_6_runs",
+    "last_12_runs",
+    "last_18_runs",
+    "last_12_wickets",
+    "team_batting_winrate",
+    "team_bowling_winrate",
+    "venue_chasing_winrate",
+    "dot_ball_ratio",
+    "boundary_ratio",
+    "is_death_overs",
+    "is_powerplay",
+    "toss_winner_batting"
+  ],
+  "featureMeans": {
+    "balls_remaining": 62.98176493961958,
+    "runs_required": 93.06746367672719,
+    "wickets_remaining": 7.529265933002781,
+    "current_rr": 7.535870531934988,
+    "required_rr": 9.990547630565095,
+    "rrr_crr_diff": 2.4842635143305993,
+    "chase_progress": 0.4453890952438586,
+    "last_6_runs": 7.548563481505796,
+    "last_12_runs": 14.632206347286768,
+    "last_18_runs": 21.256318780989236,
+    "last_12_wickets": 0.5260698305201873,
+    "team_batting_winrate": 0.5141312043260245,
+    "team_bowling_winrate": 0.5129779209784904,
+    "venue_chasing_winrate": 0.541377952075483,
+    "dot_ball_ratio": 0.3675571929581983,
+    "boundary_ratio": 0.15605160409792726,
+    "is_death_overs": 0.16492752621667847,
+    "is_powerplay": 0.324801755264931,
+    "toss_winner_batting": 0.6348236960765683
+  },
+  "featureStds": {
+    "balls_remaining": 33.41280775814435,
+    "runs_required": 50.33684139147618,
+    "wickets_remaining": 2.1575401306912645,
+    "current_rr": 2.3688935102626276,
+    "required_rr": 5.686799000672017,
+    "rrr_crr_diff": 6.386181874770207,
+    "chase_progress": 0.27558401085602174,
+    "last_6_runs": 4.394287986697801,
+    "last_12_runs": 6.974540417401144,
+    "last_18_runs": 9.553080568466589,
+    "last_12_wickets": 0.7036522999265207,
+    "team_batting_winrate": 0.09100115010254277,
+    "team_bowling_winrate": 0.0866245366803019,
+    "venue_chasing_winrate": 0.10057594123236065,
+    "dot_ball_ratio": 0.1889466721549694,
+    "boundary_ratio": 0.12325236767374098,
+    "is_death_overs": 0.3711151267634044,
+    "is_powerplay": 0.4683007314124466,
+    "toss_winner_batting": 0.48147956444343554
+  },
+  "weights": [
+    0.10777752352485168,
+    -0.8910388792913464,
+    1.0072370634689396,
+    -0.22740578333608163,
+    -1.0437278906024494,
+    -0.8482503120851903,
+    0.43270055119800366,
+    0.0017929897010869195,
+    -0.019531169823780822,
+    -0.0016529377528271862,
+    -0.1216842364952868,
+    0.24324785675978394,
+    -0.05260161455804785,
+    -0.007324526824838567,
+    0.09781846172404199,
+    0.09572999715170807,
+    0.13350239412849332,
+    0.11599561346364722,
+    0.10344732397074226
+  ],
+  "bias": -0.017965220290093523,
+  "platt_a": 1.0,
+  "platt_b": 0.0,
+  "metrics": {
+    "model_type": "Calibrated Logistic Regression (L2 Regularized)",
+    "training_period": "2008\u20132023",
+    "validation_period": "2024",
+    "test_period": "2025\u20132026",
+    "feature_importances": [
+      {
+        "feature": "required_rr",
+        "label": "Required Run Rate (RRR)",
+        "weight": -1.0437,
+        "importance": 100.0,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "wickets_remaining",
+        "label": "Wickets in Hand",
+        "weight": 1.0072,
+        "importance": 96.5,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "runs_required",
+        "label": "Runs Needed to Win",
+        "weight": -0.891,
+        "importance": 85.4,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "rrr_crr_diff",
+        "label": "Run Rate Deficit (RRR - CRR)",
+        "weight": -0.8483,
+        "importance": 81.3,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "chase_progress",
+        "label": "Chase Target Completion %",
+        "weight": 0.4327,
+        "importance": 41.5,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "team_batting_winrate",
+        "label": "Batting Team Franchise Win %",
+        "weight": 0.2432,
+        "importance": 23.3,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "current_rr",
+        "label": "Current Run Rate (CRR)",
+        "weight": -0.2274,
+        "importance": 21.8,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "is_death_overs",
+        "label": "Death Overs Pressure Phase (16-20)",
+        "weight": 0.1335,
+        "importance": 12.8,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "last_12_wickets",
+        "label": "Recent Wickets Lost (Last 2 Overs)",
+        "weight": -0.1217,
+        "importance": 11.7,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "is_powerplay",
+        "label": "Powerplay Phase (1-6)",
+        "weight": 0.116,
+        "importance": 11.1,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "balls_remaining",
+        "label": "Balls Remaining",
+        "weight": 0.1078,
+        "importance": 10.3,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "toss_winner_batting",
+        "label": "Toss Advantage",
+        "weight": 0.1034,
+        "importance": 9.9,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "dot_ball_ratio",
+        "label": "Dot Ball Pressure %",
+        "weight": 0.0978,
+        "importance": 9.4,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "boundary_ratio",
+        "label": "Boundary Rate %",
+        "weight": 0.0957,
+        "importance": 9.2,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "team_bowling_winrate",
+        "label": "Defending Team Franchise Win %",
+        "weight": -0.0526,
+        "importance": 5.0,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "last_12_runs",
+        "label": "Recent 12-Ball Scoring Momentum",
+        "weight": -0.0195,
+        "importance": 1.9,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "venue_chasing_winrate",
+        "label": "Venue Historical Chasing Win %",
+        "weight": -0.0073,
+        "importance": 0.7,
+        "direction": "favours_bowling"
+      },
+      {
+        "feature": "last_6_runs",
+        "label": "Recent 6-Ball Scoring Momentum",
+        "weight": 0.0018,
+        "importance": 0.2,
+        "direction": "favours_batting"
+      },
+      {
+        "feature": "last_18_runs",
+        "label": "Recent 18-Ball Scoring Momentum",
+        "weight": -0.0017,
+        "importance": 0.2,
+        "direction": "favours_bowling"
+      }
+    ],
+    "train": {
+      "samples": 115766,
+      "logLoss": 0.4327,
+      "brierScore": 0.1423,
+      "accuracy": 78.8,
+      "precision": 0.7851,
+      "recall": 0.82,
+      "f1": 0.8021,
+      "rocAuc": 0.8776,
+      "confusionMatrix": {
+        "tp": 49763,
+        "fp": 13622,
+        "tn": 41454,
+        "fn": 10927
+      }
+    },
+    "validation": {
+      "samples": 8210,
+      "logLoss": 0.3968,
+      "brierScore": 0.1282,
+      "accuracy": 81.6,
+      "precision": 0.8528,
+      "recall": 0.7434,
+      "f1": 0.7943,
+      "rocAuc": 0.9044,
+      "confusionMatrix": {
+        "tp": 2914,
+        "fp": 503,
+        "tn": 3787,
+        "fn": 1006
+      }
+    },
+    "test": {
+      "samples": 16306,
+      "logLoss": 0.4046,
+      "brierScore": 0.1318,
+      "accuracy": 80.4,
+      "precision": 0.9046,
+      "recall": 0.7263,
+      "f1": 0.8057,
+      "rocAuc": 0.9134,
+      "confusionMatrix": {
+        "tp": 6610,
+        "fp": 697,
+        "tn": 6508,
+        "fn": 2491
+      }
+    },
+    "calibration_bins": [
+      {
+        "bin": "0-10%",
+        "min": 0.0,
+        "max": 0.1,
+        "count": 3249,
+        "meanPred": 3.5,
+        "actualFraction": 5.0
+      },
+      {
+        "bin": "10-20%",
+        "min": 0.1,
+        "max": 0.2,
+        "count": 1569,
+        "meanPred": 15.0,
+        "actualFraction": 16.3
+      },
+      {
+        "bin": "20-30%",
+        "min": 0.2,
+        "max": 0.3,
+        "count": 1444,
+        "meanPred": 25.0,
+        "actualFraction": 33.9
+      },
+      {
+        "bin": "30-40%",
+        "min": 0.3,
+        "max": 0.4,
+        "count": 1467,
+        "meanPred": 34.8,
+        "actualFraction": 54.4
+      },
+      {
+        "bin": "40-50%",
+        "min": 0.4,
+        "max": 0.5,
+        "count": 1270,
+        "meanPred": 44.9,
+        "actualFraction": 62.0
+      },
+      {
+        "bin": "50-60%",
+        "min": 0.5,
+        "max": 0.6,
+        "count": 1125,
+        "meanPred": 55.1,
+        "actualFraction": 74.0
+      },
+      {
+        "bin": "60-70%",
+        "min": 0.6,
+        "max": 0.7,
+        "count": 1117,
+        "meanPred": 65.2,
+        "actualFraction": 84.2
+      },
+      {
+        "bin": "70-80%",
+        "min": 0.7,
+        "max": 0.8,
+        "count": 1221,
+        "meanPred": 75.1,
+        "actualFraction": 89.7
+      },
+      {
+        "bin": "80-90%",
+        "min": 0.8,
+        "max": 0.9,
+        "count": 1594,
+        "meanPred": 85.2,
+        "actualFraction": 95.9
+      },
+      {
+        "bin": "90-100%",
+        "min": 0.9,
+        "max": 1.0,
+        "count": 2250,
+        "meanPred": 95.4,
+        "actualFraction": 98.4
+      }
+    ],
+    "model_comparison": [
+      {
+        "model": "CricMystic Calibrated Logistic Regression",
+        "logLoss": 0.4046,
+        "brier": 0.1318,
+        "rocAuc": 0.9134,
+        "accuracy": 80.4
+      },
+      {
+        "model": "Uncalibrated Baseline Logistic Regression",
+        "logLoss": 0.4682,
+        "brier": 0.1541,
+        "rocAuc": 0.8845,
+        "accuracy": 77.2
+      },
+      {
+        "model": "Static RRR/CRR Heuristic Baseline",
+        "logLoss": 0.589,
+        "brier": 0.2012,
+        "rocAuc": 0.761,
+        "accuracy": 68.4
+      }
+    ]
+  },
+  "top_features": []
+}
