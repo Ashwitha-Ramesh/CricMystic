@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-**Netlify:** [PASTE YOUR NETLIFY DEPLOYMENT LINK HERE]
+**Netlify:** https://cricmystic.netlify.app/
 
 ## ✨ Features
 
@@ -53,7 +53,7 @@ npm run build
 The project is deployed using **Netlify**.
 
 **Live URL:**  
-PASTE YOUR NETLIFY URL HERE
+https://cricmystic.netlify.app/
 
 ## 👩‍💻 Internship
 
@@ -61,4 +61,6 @@ Developed as **Task 3** of the **InternPE Internship Program**.
 
 ## 📄 License
 
-This project is created for educational and internship purposes.
+This project is created for educational and internship purposes.                                
+
+## ⭐ If you find CricMystic interesting, consider giving the repository a star!
